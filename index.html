@@ -1,59 +1,202 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Client</title>
-  
-    <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
-    <meta name="description" lang="en" content="">
-    
-    <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
-    <meta name="keywords" lang="en" content="">
-    
-    <!-- View-port Basics: http://mzl.la/VYREaP -->
-    <!-- This meta tag is used for mobile device to display the page without any zooming,
-        so how much the device is able to fit on the screen is what's shown initially. 
-        Remove comments from this tag, when you want to apply media queries to the website. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- To adhear no-cache for Chrome -->
-    <!-- <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-store, no-cache" />
-    <meta http-equiv="Expires" content="0" /> -->
-
-    <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <!--font-awesome link for icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-    <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+    <meta charset="utf-8" />
+    <title>GraphicsUmbrella</title>
+    <meta name="description" lang="en" content="welcome to graphics umbrella" />
+    <meta
+      name="keywords"
+      lang="en"
+      content="graphics, umbrella, design, minimal,business"
+    />
+    <meta name="author" content="green umbrella" />
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!--container starts here-->
     <div class="container">
-      <!--header starts here-->
-      <header>
-        
-      </header>
-      <!--header ends here-->
-      <!--main starts here-->
-      <main>
-
-      </main>
-      <!--main ends here-->
-
-      <!--footer starts here-->
-      <footer>      
-
-      </footer>
-      <!--footer ends here-->
-
-    </div>
-    <!--container ends here-->
-    <script src="js/vendors/jquery-1.8.3.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+      
+ <!--container starts here-->
+ <div class="container">
+  <!--HEADER STARTS HERE -->
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-wrapper">
+        <h1 class="logo"><a href="index.html"><img src="./assets/vendor/logo.png" alt="GraphicsUmbrella"></a></h1>
+        <nav class="nav-bar">          
+          <div id="burger-nav"><i class="fa fa-reorder" style="font-size:30px;color:gray"></i></div>
+           <ul id="menu">
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">features</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+          <div>
+        </nav>
+      </div>
+  </header>
+  <!--HEADER ENDS HERE -->
+  
+      <!--MAIN STARTS HERE-->
+  <main>
+    <!-- BANNER STARTS HERE-->
+    <section class="banner">
+      <div class="banner-wrapper">
+        <h2>ADD LOVELY CAPTIONS TO EACH SLIDE AND MAKE YOUR BUSINESS STAND OUT</h2>
+        <img src="assets/vendor/intro.png" alt="banner" />
+      </div>
+      <div class="banner-icon">
+        <i class="fa fa-chevron-circle-right right" style="color:white"></i>
+        <i class="fa fa-chevron-circle-left left" style="color:white"></i>
+      </div>
+    </section>
+    <!-- BANNER ENDS HERE-->
+    <!-- FEATURES STARTS HERE -->
+    <section class="features">
+      <h3 class="features-heading">WELCOME TO <span>ELEGANTICA</span> - A MINIMAL BUSINESS THEME</h3>
+      <ul class="features-container">
+        <li class="features-wrapper">
+          <img src="assets/vendor/intro2.png" alt="">
+          <h4>AMAZING</h4>
+          <h5>Support</h5>
+        </li>
+        <li class="features-wrapper">
+          <img src="assets/vendor/intro2.png" alt="">
+          <h4>24 HOUR</h4>
+          <h5>Availability</h5>
+        </li>
+        <li class="features-wrapper">
+          <img src="assets/vendor/intro2.png" alt="">
+          <h4>WEB</h4>
+          <h5>Design</h5>
+        </li>
+        <li class="features-wrapper">
+          <img src="assets/vendor/intro2.png" alt="">
+          <h4>MOBILE</h4>
+          <h5>Development</h5>
+        </li>
+      </ul>
+    </section>
+    <!-- FEATURES ENDS HERE -->
+    <!--PORTFOLIO STARTS HERE-->
+    <section class="portfolio">
+      <div class="portfolio-div-wrapper">
+        <div class="portfolio-heading">
+          <h3>RECENT FROM <span>PORTFOLIO</span></h3>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-wrapper">
+            <img src="assets/vendor/intro3.png" alt="business card">
+            <h3>BUSINESS CARDS</h3>
+            <h5 class="video"><a href="#">Video</a></h5>
+            <h5 class="interview"><a href="#">Interview</a></h5>
+            <p><span class="bold">Lorem ipsum dolor</span> sit amet das consectetuer adipiscing elit, ad diam nonummy nibh    euismodos tincidunt ut laoreet dolore atir.</p>
+          </div>
+          <div class="portfolio-wrapper">
+            <img src="assets/vendor/intro3.png" alt="moo minicard">
+            <h3>MOO MINICARDS</h3>
+            <h5 class="video"><a href="#">Video</a></h5>
+            <h5 class="interview"><a href="#">Interview</a></h5>
+            <p><span class="bold">Lorem ipsum dolor</span> sit amet das consectetuer adipiscing elit, ad diam nonummy nibh euismodos tincidunt ut laoreet dolore atir.</p>
+          </div>
+  
+          <div class="portfolio-wrapper">
+            <img src="assets/vendor/intro3.png" alt="say it print">
+            <h3>SAY IT IN PRINT</h3>
+            <h5 class="video"><a href="#">Video</a></h5>
+            <h5 class="interview"><a href="#">Interview</a></h5>
+            <p><span class="bold">Lorem ipsum dolor</span> sit amet das consectetuer adipiscing elit, ad diam nonummy nibh euismodos tincidunt utlaoreet dolore atir.</p>
+          </div>
+  
+          <div class="portfolio-wrapper">
+            <img src="assets/vendor/intro3.png" alt="graphics in print">
+            <h3>GRAPHICS IN PRINT</h3>
+            <h5 class="video"><a href="#">Video</a></h5>
+            <h5 class="interview"><a href="#">Interview</a></h5>
+            <p><span class="bold">Lorem ipsum dolor</span> sit amet das consectetuer adipiscing elit, ad diam nonummy nibh euismodos tincidunt utlaoreet dolore atir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--PORTFOLIO ENDS HERE-->
+    <!-- ADVERTISERS START HERE -->
+    <section>
+      <div class="advertisers">
+        <div class="portfolio-heading second">
+          <h3>OUR MAJOR <span>ADVERTISERS</span></h3>
+        </div>
+        <ul class="advertisers-wrapper">
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+          <li class="advertisers-content"><img src="assets/vendor/ads.png" alt="advertisers"></li>
+        </ul>
+      </div>
+    </section>
+    <!-- ADVERTISERS END HERE -->
+  </main>
+  <!--MAIN ENDS HERE-->
+   <!-- FOOTER STARTS HERE -->
+  <footer class="footer">
+    <ul class="footer-wrapper">
+      <li class="column1">
+        <h4>LITTLE ABOUT US</h4>
+        <p><span class="bold">Sed posuere</span> consectetur est at. Nulla vitae elit libero, a pharetra. Lorem ipsum dolor sit amet, <span class="bold">consectetuer adipiscing.</span> </p>
+        <h4>FOLLOW US</h4>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook-f" style="font-size:20px;color:gray"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" style="font-size:20px;color:gray"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" style="font-size:20px;color:gray"></i></a></li>
+          <li><a href="#"><i class="fa fa-vimeo" style="font-size:20px;color:gray"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble" style="font-size:20px;color:gray"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitch" style="font-size:20px;color:gray"></i></a></li>
+        </ul>
+      </li>
+      <li class="column2">
+        <h4>ARCHIVES</h4>
+        <h5>March 2012</h5>
+        <h5>February 2012</h5>
+        <h5>January 2012</h5>
+        <h5>December 2011</h5>
+      </li>
+      <li class="column3">
+        <h4>CONTACT US</h4>
+        <h5><i class="fa fa-envelope-o" style="font-size:20px;color:gray"></i> info@premiumcoding.com</h5>
+        <h5><i class=" 	fa fa-phone" style="font-size:20px;color:gray"></i> 800 756 156</h5>
+        <h5><i class=" 	fa fa-volume-control-phone" style="font-size:20px;color:gray"></i> +386408007561</h5>
+      </li>
+      <li class="column4">
+        <h4>SIGN TO NEWSLETTER</h4>
+        <form action="">
+          <input type="text" placeholder="Name">
+          <input type="text" placeholder="E-mail">
+          <input type="button" value="Subscribe" class="button">          
+        </form>
+      </li>
+    </ul>
+  </footer>
+  <!-- FOOTER ENDS HERE -->
+  <!-- BASE FOOTER -->
+  <footer class="base-footer">
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">SITEMAP</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <h5>&copy; 2013 All rights reserved</h5>
+    </ul>
+  </footer>
+  <!-- BASE FOOTER ENDS HERE -->
+</div>
+<!--container ends here-->
+</body>
 </html>
